@@ -18,7 +18,7 @@ def min_max2(arr):
     arr.sort()
     return arr[0], arr[-1]
 
-
+# problem 3
 # QuickSort is the best sorting algorithm to sort an array with less time complexity
 def quick_sort(arr):
     if len(arr) <= 1:
@@ -33,7 +33,7 @@ def kthSmallest(arr, k):
     arr = quick_sort(arr)
     return arr[k - 1]
 
-# problem 3
+# problem 4
 def sort012(arr):
     num_dict = {0 : 0,
                 1 : 0,
